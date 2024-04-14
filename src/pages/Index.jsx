@@ -19,11 +19,6 @@ const Index = () => {
       description: "Flaky, mild-flavored cod fillets, perfect for any recipe.",
       image: "https://images.unsplash.com/photo-1664288377740-1bec924cd622?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb2QlMjBmaWxsZXRzfGVufDB8fHx8MTcxMzEwMDA3MHww&ixlib=rb-4.0.3&q=80&w=1080",
     },
-    {
-      name: "Gatsby For R130",
-      description: "A delicious gatsby sandwich filled with fresh seafood.",
-      image: "https://images.unsplash.com/photo-1630921081276-f5f2a5a8bfb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnYXRzYnklMjBzYW5kd2ljaHxlbnwwfHx8fDE2ODEzMzI1NTB8MA&ixlib=rb-4.0.3&q=80&w=1080",
-    },
   ];
 
   return (
