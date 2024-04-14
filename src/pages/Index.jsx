@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Image, Stack, Container, SimpleGrid, Icon, Flex, Link } from "@chakra-ui/react";
+import { Box, Heading, Text, Image, Stack, Container, SimpleGrid, Icon, Flex, Link, Button } from "@chakra-ui/react";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Index = () => {
@@ -49,6 +49,14 @@ const Index = () => {
             </Box>
           ))}
         </SimpleGrid>
+      </Container>
+
+      <Container maxW="container.lg" py={8}>
+        <Link href="/order">
+          <Button colorScheme="blue" size="lg">
+            Order Now
+          </Button>
+        </Link>
       </Container>
 
       <Box bg="gray.100" py={8}>
